@@ -1,0 +1,58 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logoCinema {
+    width: 250px;
+    height: 80px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.nav-brand:focus {
+    outline: none;
+}
+
+.navbar {
+    background-color: #0A0C52;
+    border-bottom: 5px solid #E6CB00;
+}
+
+.navbar-nav a,
+b {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+}
+
+.navbar-nav a,
+b:focus {
+    outline: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.nav-link {
+    color: white;
+    font-size: 22px;
+}
+
+.nav-link:hover {
+    color: #00AAE4;
+}
+
+.navbar-toggler {
+    font-size: 35px;
+    color: white;
+}
+
+@media(max-width:425px) {
+    .logoCinema {
+        width: 250px;
+        height: 80px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.carousel {
+    background-color: #0A0C52;
+}
+
+.carousel-inner {
+    height: 400px;
+}
+
+.carousel-inner img {
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+@media(max-width:425px) {
+    .carousel-inner {
+        height: 300px;
+    }
+    .carousel-inner img {
+        width: 80%;
+        height: 300px;
+        margin: 0 auto;
+    }
+}
